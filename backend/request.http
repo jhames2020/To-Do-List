@@ -1,6 +1,7 @@
 POST http://localhost:8081/api/cart
 Content-Type: application/json
 
+
 {
   "title": "Laptop",
   "quantity": 1
@@ -33,7 +34,7 @@ POST http://localhost:8081/todos
 Content-Type: application/json
 
 {
-  "id": 123,
+  "_id": 123,
   "task": "Make a wish",
   "checked": false
 }
@@ -44,7 +45,7 @@ PATCH http://localhost:8081/todos/1
 Content-Type: application/json
 
 {
-  "checked": "true"
+  "checked": true
 }
 
 ###
