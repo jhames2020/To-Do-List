@@ -73,6 +73,7 @@ function App() {
             ref={taskRef}
             value={task}
             onChange={onTodoChange}
+            placeholder="Enter Task..."
           />
 
           <button
